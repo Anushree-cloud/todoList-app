@@ -1,0 +1,150 @@
+body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.innerBody{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    border: 2px solid rgb(0, 38, 95);
+    border-radius: 5px;
+    width: 55vw;
+    padding: 20px;
+    background-image: radial-gradient(rgb(217, 228, 125), rgb(53, 223, 143));
+    box-shadow: 0px 0px 5px 2px #000;
+}
+.header{
+    background-color: rgb(0, 38, 95);
+    height:20vh;
+    width: 50vw;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.heading{
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#itemName{
+    width: 35vw;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#addItem{
+    padding: 5px;
+    width: 10vw;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#addItem:hover{
+    background-color: rgb(170, 255, 0);
+}
+
+#unorderList {
+    width: 50.5vw;
+    list-style-type: none;
+    padding: 0;
+    /* border: 1px solid rgb(109, 12, 12); */
+    border-radius: 3px;
+}
+
+#unorderList li {
+    padding: 16px 16px;
+    border: 1px solid rgb(109, 12, 12);
+    border-radius: 3px;
+    
+    font-weight: bolder;
+    margin-top: 5px;
+    cursor: default;
+}
+
+
+#unorderList li:hover {
+    background-image: linear-gradient(rgb(219, 235, 82), rgb(11, 161, 91))
+}
+
+#itemText{
+    color: black;
+    text-shadow: 0px 0px 2px #f1f1f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.delete{
+    margin-left: 5px;
+}
+
+.buttons{
+    cursor: pointer;
+    float: right;
+    width: 5vw;
+    height: 20px;
+    padding: 1px;
+    border-radius: 3px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.buttons:hover{
+    background-color: rgb(170, 255, 0);
+}
+
+#closeAllBtn:disabled:hover {
+    background-color: yellow;
+}
+
+.check{
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+h3{
+    border-bottom: 3px double rgb(0, 38, 95);
+    width: 50vw;
+    border-top: 1px solid rgb(0, 38, 95);
+    padding: 5px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid black;
+    width: 51vw;
+}
+
+.completed{
+    color: #000;
+    font-weight: normal;
+    font-style: italic;
+    margin-left: 5px;
+    text-decoration: none !important;
+}
+
+#counter{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(109, 12, 12);
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#editInput{
+    border-radius: 3px;
+    width: 20vw;
+    height: 3.5vh;
+}
+
+#listHead{
+    font-family: 'Courier New', Courier, monospace;
+}
+
